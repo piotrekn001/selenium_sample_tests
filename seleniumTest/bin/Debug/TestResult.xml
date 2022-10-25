@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-02-19 11:48:20Z" end-time="2021-02-19 11:48:43Z" duration="22.417903">
+  <command-line><![CDATA[nunit3-console  seleniumTest.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1003" name="seleniumTest.dll" fullname="C:\Users\Piotr\source\repos\seleniumTest\seleniumTest\bin\Debug\seleniumTest.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-02-19T11:48:21.4121285Z" end-time="2021-02-19T11:48:43.0205248Z" duration="21.607146" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.13.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="C:\Users\Piotr\source\repos\seleniumTest\seleniumTest\bin\Debug" machine-name="WS-6LM85L2" user="pna" user-domain="SPYRO" culture="en-GB" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Piotr\source\repos\seleniumTest\seleniumTest\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3116" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="seleniumTest_NUnitAssemblyHooks" classname="seleniumTest_NUnitAssemblyHooks" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-02-19T11:48:21.4275066Z" end-time="2021-02-19T11:48:43.0205248Z" duration="21.592283" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <output><![CDATA[-> Loading plugin C:\Users\Piotr\source\repos\seleniumTest\seleniumTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\Piotr\source\repos\seleniumTest\seleniumTest\bin\Debug\seleniumTest.dll
+-> Missing [assembly:RuntimePlugin] attribute in seleniumTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="1-1004" name="seleniumTest" fullname="seleniumTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-02-19T11:48:23.7268523Z" end-time="2021-02-19T11:48:42.6397926Z" duration="18.912624" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <test-suite type="TestSuite" id="1-1005" name="Tests" fullname="seleniumTest.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-02-19T11:48:23.7268523Z" end-time="2021-02-19T11:48:42.6397926Z" duration="18.912574" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-suite type="TestFixture" id="1-1001" name="HockeyTrainingFeature" fullname="seleniumTest.Tests.HockeyTrainingFeature" classname="seleniumTest.Tests.HockeyTrainingFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-02-19T11:48:23.7268523Z" end-time="2021-02-19T11:48:42.6393245Z" duration="18.911649" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="Description" value="HockeyTraining" />
+            </properties>
+            <test-case id="1-1002" name="SuccessfullySelectFirstResultOfASpeedPhraseSearchInChatWindow" fullname="seleniumTest.Tests.HockeyTrainingFeature.SuccessfullySelectFirstResultOfASpeedPhraseSearchInChatWindow" methodname="SuccessfullySelectFirstResultOfASpeedPhraseSearchInChatWindow" classname="seleniumTest.Tests.HockeyTrainingFeature" runstate="Runnable" seed="56936684" result="Passed" start-time="2021-02-19T11:48:23.7303236Z" end-time="2021-02-19T11:48:42.6313882Z" duration="18.901204" asserts="4">
+              <properties>
+                <property name="Description" value="successfully select first result of a speed phrase search in chat window" />
+              </properties>
+              <output><![CDATA[Given I am on ‘hockeytraining.com’ page
+-> done: HockeyTest.GivenILoadUrl() (6.8s)
+Then the page title is displayed
+-> done: HockeyTest.GivenThePageIsDisplayed() (0.1s)
+Then I close the newsletter window
+-> done: HockeyTest.GivenICloseTheNewsletterWindow() (3.1s)
+When I click the ‘chat icon’
+-> done: HockeyTest.WhenIClickChatIcon() (0.1s)
+Then The chat is opened
+-> done: HockeyTest.ThenTheChatIsOpened() (0.6s)
+When I search for speed phrase
+-> done: HockeyTest.WhenISearchForSpeedPhrase("speed") (4.1s)
+Then I can click ‘Get The Hockey Speed Program’ button
+-> done: HockeyTest.ThenICanClickGetTheHockeySpeedProgramButton() (2.3s)
+When I click on the comments button
+-> done: HockeyTest.WhenIClickOnTheCommentsButton() (0.2s)
+Then the comment form is displayed
+-> done: HockeyTest.ThenTheCommentFormIsDisplayed() (0.1s)
+When I open the same page in a new tab
+-> done: HockeyTest.WhenIOpenTheSamePageInANewTab() (1.3s)
+Then the page title is displayed
+-> done: HockeyTest.GivenThePageIsDisplayed() (0.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

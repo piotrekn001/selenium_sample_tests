@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hockeyTest", "seleniumTest\hockeyTest.csproj", "{021F0779-B9CD-46E4-AEDF-A766E3B4F1D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021F0779-B9CD-46E4-AEDF-A766E3B4F1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021F0779-B9CD-46E4-AEDF-A766E3B4F1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021F0779-B9CD-46E4-AEDF-A766E3B4F1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021F0779-B9CD-46E4-AEDF-A766E3B4F1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDE0C16E-97F8-42E2-993A-BE8347785E05}
+	EndGlobalSection
+EndGlobal
